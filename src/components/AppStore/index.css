@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.app-container {
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.app-store {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  padding-top: 20px;
+}
+.search-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.search-input {
+  border-color: #7b8794;
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+}
+.tab-list {
+  display: flex;
+  justify-content: center;
+}
+.apps-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.app-name {
+  font-family: Bree Serif;
+  color: #1e293b;
+  font-size: 18px;
+}

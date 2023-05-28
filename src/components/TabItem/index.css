@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.tab-item {
+  display: flex;
+  list-style-type: none;
+}
+.tab-button {
+  color: #7b8794;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: 2px solid #dfe2e5;
+  cursor: pointer;
+}
+.active {
+  color: #2563ab;
+  border-bottom: 2px solid #2563ab;
+  padding-bottom: 8px;
+}
